@@ -1,0 +1,121 @@
+
+  body {                                              
+    background-color: oldlace;                        
+    font-family: Helvetica, Arial, sans-serif;        
+  }                                                   
+  
+  body * + * {                                         
+    margin-top: 1.2em;                                
+  }                                                   
+
+  .container {                                        
+    max-width: 1200px;                                
+    margin: 0 auto;                                   
+  }      
+  .summary h3 {                                                  
+    margin: 0;                                                      
+    font-size: .9em;                                                
+    font-weight: bold;                                              
+    text-align: right;                                              
+    text-transform: uppercase;                                      
+  }                                                                 
+  .h1-header {
+    border-block-end-style: groove;
+    color: rgb(238, 78, 30);
+    padding-left: 120px;
+  }
+  #personal-overview {
+    padding-left: 120px;
+  }
+  .logo {
+    float:left;
+  }
+  #following-menu {
+    padding-left: 120px;
+  }
+
+  .summary  {        
+    display: block;
+    width: 100%;
+    margin-top: 0;
+  }
+  .column-main {
+    flex: 66.67%;             
+  }
+  
+  .column-sidebar {
+    flex: 33.33%;             
+  }
+  
+  .button {                                              
+    margin-top: 1em;                                                
+    border: 1px solid #aa230c;                                      
+    background-color: rgb(230, 100, 100);                                        
+    padding: .5em 1em;                                         
+    cursor: pointer;
+    font-size: 16px;                                   
+  } 
+  button:hover { 
+    background-color: hsl(0, 61%, 45%);         
+    border-radius: 1em;                         
+  } 
+
+  .button1 {                                              
+    margin-top: 1em;                                                
+    border: 1px solid #aa230c;                                      
+    background-color: rgb(39, 184, 75);                                        
+    padding: .5em 1em;                                         
+    cursor: pointer;
+    font-size: 16px;                                   
+  }                                                            
+  
+
+.site-nav {
+    display: flex;
+    padding: .5em;                        
+    background-color: rgb(65, 225, 225);
+    list-style-type: none;
+    border-radius: .2em;
+  }
+
+  .site-nav > li {
+    margin-top: 0;                       
+  }
+
+
+  .site-nav > li > a {
+    display: block;                       
+    padding: .5em 1em;                    
+    background-color: #cc6b5a;
+    color: white;
+    text-decoration: none;
+  }
+  .site-nav > li + li {               
+    margin-left: 1.5em;
+  }
+  
+  .site-nav > .nav-right {
+    margin-left: auto;                
+  }
+
+  .tile {                         
+    padding: 1.5em;               
+    background-color: #fff;       
+  }                               
+  
+  .flex {                         
+    display: flex;                
+  } 
+
+  .flex > * + * {                 
+    margin-top: 0px;                
+    margin-left: 1.5em;           
+  }
+
+  .centered {
+    text-align: center;
+  }
+  
+ 
+  
+  
